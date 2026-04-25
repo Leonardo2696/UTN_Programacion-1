@@ -5,7 +5,7 @@ def verificar_str(texto):
         text = input('Ingrese el nombre ').strip().capitalize()
     return text
 
-def validar_N(numero):
+def verificar_int(numero):
     num_int = numero
     while not num_int.isdigit():
         print('No es un numero valido')
@@ -14,7 +14,12 @@ def validar_N(numero):
 
 def dato_en_list(dato,dicc,mensaje):
     while dato in dicc:
-        print('Error. El dato ingresado no es valido')
-        dato = verificar_str(input(mensaje).capitalize().strip())
-        print()
+        if type(dato) == str:
+            print('Error. El dato ingresado ya existe: ')
+            dato = verificar_str(input(mensaje).capitalize().strip())
+            print()
+        elif type(dato) == int:
+            print('Error. El dato ingresado ya existe: ')
+            dato = validar_N(input(mensaje).capitalize().strip())
+            print()
     return dato
