@@ -10,10 +10,10 @@
 
 # #17. [cite_start]Escribí una función propia en R llamada `nor_gate <- function(a, b)` que devuelva la lógica de una compuerta NOR universal[cite: 24, 26].
 # # Definimos la función NOR (Not OR)
-nor_gate <- function(a, b) {
-    resultado <- !(a | b)
-    return(resultado)
-} 
+# nor_gate <- function(a, b) {
+#     resultado <- !(a | b)
+#     return(resultado)
+# } 
 # # Probamos la función
 # a <- FALSE
 # b <- FALSE
@@ -36,21 +36,21 @@ nor_gate <- function(a, b) {
 # }
 
 #20. [cite_start]Creá un `data.frame` con 8 filas para las combinaciones de 3 variables lógicas: `A`, `B` y `C`[cite: 36].
-A <- rep(c(0,1),each = 4)
-B <- rep(c(0,1),each = 2 ,times = 2)
-C <- rep(c(0,1),times = 4)
-nueva_tabla <- data.frame(A,B,C)
+# A <- rep(c(0,1),each = 4)
+# B <- rep(c(0,1),each = 2 ,times = 2)
+# C <- rep(c(0,1),times = 4)
+# nueva_tabla <- data.frame(A,B,C)
 #print(nueva_tabla)
 
 #21. [cite_start]Agregá una columna `Salida` a ese dataframe definida por la regla `(A | B) & !C`[cite: 37].
 
-nueva_tabla$Salida <- as.numeric((A|B)&!C)
+# nueva_tabla$Salida <- as.numeric((A|B)&!C)
 # print(nueva_tabla)
 
 #22. [cite_start]Usá funciones de R para filtrar y mostrar únicamente las filas del dataframe donde `Salida == TRUE`[cite: 38].
 
-solo_true <- subset(nueva_tabla, Salida == 1)
-indice <- which(nueva_tabla$Salida == 1)
+# solo_true <- subset(nueva_tabla, Salida == 1)
+# indice <- which(nueva_tabla$Salida == 1)
 # print('Las filas que niene solo 1 son: ')
 # print(solo_true)
 # print(indice)
@@ -69,11 +69,33 @@ indice <- which(nueva_tabla$Salida == 1)
 
 #24. Vas a crear un sistema de disparo en un FPS. Las reglas son: `(gatillo & municion) & !seguro`. Definí las variables y probá la salida.
 
-FPS <- data.frame(
-    gatillo = c(T,T,T,T,F,F,F,F),
-    municion = c (T,T,F,F,T,T,F,F),
-    seguro = c(T,F,T,F,T,F,T,F)
-)
-FPS$accion <- ifelse((FPS$gatillo & FPS$municion) & !FPS$seguro,'!PUUUM',ifelse(FPS$gatillo & (!FPS$municion & !FPS$seguro), 'Sin municion, hay que recargar','No se uso el arma'))
+# FPS <- data.frame(
+#     gatillo = c(T,T,T,T,F,F,F,F),
+#     municion = c (T,T,F,F,T,T,F,F),
+#     seguro = c(T,F,T,F,T,F,T,F)
+# )
+# FPS$accion <- ifelse((FPS$gatillo & FPS$municion) & !FPS$seguro,'!PUUUM',ifelse(FPS$gatillo & (!FPS$municion & !FPS$seguro), 'Sin municion, hay que recargar','No se uso el arma'))
 
-print(FPS)
+# print(FPS)
+
+#25. Simplificación de Karnaugh en código: Escribí `F_original <- (A & B) | (A & !B)[cite_start]` y una versión simplificada `F_minima <- A`[cite: 52, 53].
+A <- rep(c(0,1),each = 4)
+B <- rep(c(0,1),each = 2 ,times = 2)
+nueva_tabla <- data.frame(A,B)
+F_original <- as.numeric((A & B) | (A & !B))
+F_minima <- as.numeric(A)
+nueva_tabla$F_o <- F_original
+nueva_tabla$F_m <- F_minima
+
+#26. [cite_start]Usá la función `identical(F_original, F_minima)` creando vectores de prueba para verificar que no perdiste lógica al simplificar[cite: 60].
+
+nueva_tabla$son_iguales <- ifelse((F_original == F_minima),'SI','NO')
+
+print(nueva_tabla)
+
+#27. [cite_start]Creá una función `nand_gate <- function(a, b) { !(a & b) }`[cite: 44].
+
+nand_gate <- function(a,b){ !(a & b)}
+
+#28. [cite_start]Usando **únicamente** la función `nand_gate` del ejercicio 27, combiná sus llamados para emular el comportamiento de una compuerta NOT[cite: 45].
+
