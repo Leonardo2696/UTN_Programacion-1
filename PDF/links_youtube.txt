@@ -1,0 +1,95 @@
+======= Estructuras Secuenciales ===============
+------- Introduccion a la programacion ---------
+https://youtu.be/9nkwtij8evs?si=8VN5NASn5b7QfS6Q
+https://youtu.be/O1gXdte5kIM?si=w9H02c3Apcf56tVP
+https://youtu.be/dQ-j0Noadac?si=7Jx7Dj1UQ0W2lzhj
+https://www.youtube.com/watch?v=mn3ywpNWaX8
+https://youtu.be/lQy2urna3lA?si=OUdjyULT9A-mZLMj
+https://youtu.be/e8tG8Fh5lxE
+-------- Variables y Opreradores ---------------
+https://youtu.be/lHtxbquNzHk?si=h2_5Y8YIlFW8whd8
+https://youtu.be/uIYqLzM5yVM?si=9URJdx3tK2kbqpTq
+https://www.youtube.com/watch?v=mK9Df0KXd8s
+https://youtu.be/lifEAki1Mqs?si=rzHE5dXviF2hNPGW
+https://youtu.be/VuGEj014ujk
+--------- Pruebas de escritorio ----------------
+https://youtu.be/6gAwS0FgzUY?si=bV1A5mEwqEJG-9tC
+
+
+======== Estructuras Condicionales =============
+-------- Operadores relacionales ---------------
+https://www.youtube.com/watch?v=HIWyamKYl4M&list=PLOw7b-NX043aiYaKBMd3_k1IUZr8cXTzE&index=26
+------- Operadorers logicos --------------------
+https://www.youtube.com/watch?v=C0w1PYYfYBA
+------- Estructuras condicionales --------------
+https://www.youtube.com/watch?v=NxY0F_ScEFY
+https://www.youtube.com/watch?v=0WklTRogPzo
+https://youtu.be/M3CLRu0NEz0
+https://youtu.be/8Xe9eIbqx3o
+https://youtu.be/mKkwclijx5M
+https://youtu.be/dZy8DDJ_PDk
+https://youtu.be/8xzFZO4YEaw
+
+
+========== Estructuras Repetitivas ============
+-- Introduccion a las estructuras repetitivas -
+https://youtu.be/oApSexk5mx8?si=zLe6JjoHCL9Qnwy7
+https://youtu.be/oDQJiRNzt98?si=JJ0w7waWdEz5uqaB
+https://youtu.be/8_MCmU3OhIg?si=zvAqU9KpqnEhWTiB
+https://youtu.be/amvjXm_Z-dg?si=jDu-G1xXeLuB-o59
+----- Practica con estructuras repetitivas -----
+https://youtu.be/JNZiUS3ZcXE?si=RlIHCDJYwMOatePr
+https://youtu.be/DvrPwKMVFWo?si=H8wYEaYp0p5SxHQ6
+https://youtu.be/nUkn18qfXkM?si=xbLpfmy-97_y5siC
+https://youtu.be/jHX8b89e_Eo?si=vR7ri5xA925ofCoM
+https://youtu.be/VeAgfXj9hPA?si=vur0jplDmm9WH4Kv
+--- Ejercictacion con estructuras repetitivas --
+https://youtu.be/mAwI1O0r4DA?si=vYImqJGZpBoRYgw8
+https://youtu.be/iJHzNaYsTyw?si=kpJ7q5woqZeRc5FD
+https://youtu.be/P7n6H1iYP6U?si=z8WCNxUnHivY2No4
+https://youtu.be/2vaG8qPETsI?si=XM72pX5aty8NnzPc
+
+=========== Listas ============================
+----------------- Arrays ----------------------
+https://youtu.be/_22np2tD7lo
+-------- Introduccion a listas ----------------
+https://www.youtube.com/watch?v=CzajQimp1mo
+https://www.youtube.com/watch?v=JYEkM8eyZFk
+-------- Listas en Python ---------------------
+https://www.youtube.com/watch?v=iwJH7vRLRBs
+https://www.youtube.com/watch?v=Fq6pjbmAzKM
+-- Concatenacion, listas anidadas y matrices --
+https://www.youtube.com/watch?v=v2UyNA_OxX4
+https://youtu.be/XOcFNfb-jLk
+------- Busqueda y ordenamiento ---------------
+https://www.youtube.com/watch?v=Na7G0J77irs
+https://www.youtube.com/watch?v=dmoVAq7Aahw
+https://www.youtube.com/watch?v=InRis78uTlk
+
+============= Funciones ======================
+--- Introduccion a las funciones -------------
+https://www.youtube.com/watch?v=SYfas1rP8js&list=PLOw7b-NX043aiYaKBMd3_k1IUZr8cXTzE&index=60
+https://www.youtube.com/watch?v=hiRWPdVREFM&list=PLOw7b-NX043aiYaKBMd3_k1IUZr8cXTzE&index=61
+- Parametros, composicion y pasajes de datos -
+https://youtu.be/tsgcc5E9zEg?si=WRL0bQ93Sbei99qM
+https://youtu.be/Sp0-fSNPrxI?si=XpdncpEmGb3Lq8tT
+https://youtu.be/LC4SB2YAeu0
+https://youtu.be/LfF3g0epM14
+-- Alcance de variables y Sentencias pass ---
+https://youtu.be/JqnClEskxLY?si=WAhP9VK-398FiwUu
+https://youtu.be/OBtl_hAMRhc?si=b5BBqHj3yy-mo4G2
+
+======= Datos complejos ======================
+----- Tipos de datos Abstractos -------------
+https://www.youtube.com/watch?v=DNNjna9FW2Q
+---------- Tuplas y sets --------------------
+https://youtu.be/jTylRjw39nA
+https://youtu.be/WQ1QYNOdFvc
+----------- Diccionarios en Programacion ---
+https://www.youtube.com/watch?v=5rznIMDlC68
+
+=========== Manejo de errores ===============
+--- Manejo de errores: tipos de errores -----
+https://www.youtube.com/watch?v=Sgs-f1_UisQ
+---- Excepcion en Python --------------------
+https://www.youtube.com/watch?v=bQfoZKxUrGQ
