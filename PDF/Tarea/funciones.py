@@ -1,7 +1,6 @@
 class ErrorLetra(Exception):
     pass
 
-
 def solo_letras(texto):
     if not texto.isalpha():
         raise ErrorLetra('Solo se permiten letras')
